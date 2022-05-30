@@ -5,7 +5,7 @@
 /**
  * Check servie worker.
  */
- if (navigator.serviceWorker) {
+if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Assignment6-JS/sw.js", {
     scope: "/ICS2O-Assignment6-JS/",
   });
